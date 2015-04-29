@@ -1,0 +1,11 @@
+<h2>Adventures</h2>
+    <ul>
+    {{#each model}}
+      <li>
+          <dl>
+            <dt><a {{bind-attr href=url}} target="_blank">{{trip}}</a></dt>
+            <dd>{{description}}</dd>
+          </dl>
+      </li>
+    {{/each}}
+    </ul>

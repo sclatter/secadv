@@ -1,0 +1,13 @@
+<h2>Engineering Work</h2>
+    <ul>
+      {{#each model}}
+      <li>
+          <dl>
+            <dt>{{project}}</dt>
+            <dd>{{organization}}</dd>
+            <dd {{action "focusSection"}}>{{#link-to 'engineering.details' itemId}}details{{/link-to}}</dd>
+          </dl>
+      </li>
+    {{/each}}
+    </ul>
+{{outlet}}

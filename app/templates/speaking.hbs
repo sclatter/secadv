@@ -1,0 +1,12 @@
+<h2>Speaking</h2>
+    <ul>
+      {{#each model}}
+      <li>
+          <dl>
+            <dt><a {{bind-attr href=url}} target="_blank">{{name}}</a></dt>
+            <dd>{{venue}}</dd>
+            <dd>{{description}}</dd>
+          </dl>
+      </li>
+    {{/each}}
+    </ul>

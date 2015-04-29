@@ -1,0 +1,13 @@
+<h2>Design Work</h2>
+    <ul>
+      {{#each model}}
+      <li>
+          <dl>
+            <dt><a {{bind-attr href=url}} target="_blank">{{name}}</a></dt>
+            <dd>{{publication}}</dd>
+            <dd>{{reporter}}</dd>
+          </dl>
+      </li>
+    {{/each}}
+    </ul>
+    {{outlet}}

@@ -416,9 +416,8 @@ body {
 
 
 h1 {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.75);
   min-height: 50px;
-  opacity: .75;
   position: fixed;
   text-indent: 20px;
   top: 0;
@@ -432,10 +431,10 @@ h2 {
 }
 
 nav {
-  background-color: #696C6F;
+  background-color: rgba(108, 105, 111, 0.9);
   color: #fff;
   margin: 0;
-  opacity: .9;
+  y
   overflow: hidden;
   position: fixed;
   top: 50px;
@@ -484,10 +483,9 @@ dt {
 }
 
 main {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   margin: 100px 20px 20px;
-  opacity: .9;
   padding: 20px;
   width: 40%;
 }

@@ -7,7 +7,7 @@ export default Ember.Route.extend({
       if (section) {
         section.attr('tabindex', -1).focus();
       }
-    }, 
+    },
     didTransition: function() {
       console.log('trasitioned!');
       return true;

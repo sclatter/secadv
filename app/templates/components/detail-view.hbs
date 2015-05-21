@@ -1,5 +1,6 @@
 <section role="dialog" id="detail-view">
   <div role="document">
+  	<button {{action "close"}}>{{#link-to 'engineering'}}close{{/link-to}}</button>
     {{yield}}
     {{model.description}}
   </div>

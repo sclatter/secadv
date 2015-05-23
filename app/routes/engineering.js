@@ -14,31 +14,31 @@ export default Ember.Route.extend({
       {
         project: "iOS Onboarding Flow",
         itemId: 0,
-        description: "As an apprentice on our mobile team, I enhanced the onboarding flow with additonal actions as well as adding accessibility throughout.",
+        description: "As an apprentice on our mobile team, I enhanced the onboarding flow with additonal actions as well as adding accessibility throughout. The work was done entirely in Objective C following my attendance of the Big Nerd Ranch iOS Bootcamp.",
         organization: "LinkedIn", 
-        links: "",
-        images: []
+        links: [],
+        images: [{"url": "../images/onboardin.png", "description": "screen shot of onboarding flow"}]
       }, 
       {
         project: "Slider Javascript Library",
         itemId: 1,
-        description: "I built a Slider base javascript library, TickedSlider child, DoubleSlider which contained two Sliders and managed behavior.",
+        description: "I built a Slider base javascript library, TickedSlider child, DoubleSlider which contained two Sliders and managed behavior. The libraries allow developers to configure sliders with range selectors or discrete value selectors.",
         organization: "LinkedIn", 
-        links: "",
-        images: []
+        links: [],
+        images: [{"url": "../images/slider.png", "description": "screen shot of slider widget"}]
       }, 
       {
         project: "Toggle Javascript Library",
         itemId: 2,
-        description: "I built a native-style mobile toggle switch library in Javascript as well as three decorators to enhance behaviors.",
+        description: "I built a native-style mobile toggle switch library in Javascript as well as three decorators to enhance behaviors. These switches were stylistic progressive enhancements to checkboxes under the hood.",
         organization: "LinkedIn", 
         links: [],
-        images: []
+        images: [{"url": "../images/toggle.png", "description": "screen shot of toggle widget"}]
       }, 
       {
         project: "Bowman Library Research Skills Tutorial ",
         itemId: 3,
-        description: "Responsive, progressively enhanced, Single Page App built without an MVC using Javascript + YUI3, HTML5, CSS3.",
+        description: "Responsive, progressively enhanced, Single Page App built without an MVC using Javascript + YUI3, HTML5, CSS3. Some accessibility enhancements have been added. The tutorial will work without Javascript enabled.",
         organization: "Menlo College", 
         links: [{"Tutorial": "http://www.menlo.edu/library/research/tutorial/"}, {"Code": "https://github.com/sclatter/MenloCollegeTutorial2012"}],
         images: []
@@ -46,7 +46,7 @@ export default Ember.Route.extend({
       {
         project: "DustJS Open Source Contribution",
         itemId: 4,
-        description: "Contributing to DustJS open source library for client-side page rendering. Most used contribution is a Math helper.",
+        description: "Contributing to DustJS open source library for client-side page rendering. Most used contribution is a Math helper. The Math helper has been further enhanced by several other developers following the initial contribution.",
         organization: "LinkedIn", 
         links: [{"Code": "https://github.com/sclatter/dustjs"}],
         images: [{"url": "../images/dust.png", "description": "screen shot of Github page"}]

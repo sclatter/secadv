@@ -519,6 +519,7 @@ section[role="dialog"] {
   opacity: .95;
   position: fixed;
   top: 100px;
+  width: auto;
   z-index: 1;
 }
 

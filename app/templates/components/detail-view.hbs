@@ -1,7 +1,12 @@
-<section role="dialog" id="detail-view">
+<section role="dialog" id="detail-view" aria-labeledby="dialog-header">
   <div role="document">
-  	<button {{action "buttonClicked" param=itemId}}>close</button>
+  	<header id="dialog-header">
+  		Project Details
+  		<button {{action "buttonClicked" param=itemId}}>close</button>
+  	</header>
     {{yield}}
-    {{model.description}}
+    <article>
+    	{{model.description}}
+   	</article>
   </div>
 </section>

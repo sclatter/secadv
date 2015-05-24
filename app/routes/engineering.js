@@ -17,7 +17,7 @@ export default Ember.Route.extend({
         description: "As an apprentice on our mobile team, I enhanced the onboarding flow with additonal actions as well as adding accessibility throughout. The work was done entirely in Objective C following my attendance of the Big Nerd Ranch iOS Bootcamp.",
         organization: "LinkedIn", 
         links: [],
-        images: [{"url": "../images/onboardin.png", "description": "screen shot of onboarding flow"}]
+        images: [{"url": "../images/onboarding.png", "description": "screen shot of onboarding flow"}]
       }, 
       {
         project: "Slider Javascript Library",
@@ -40,15 +40,15 @@ export default Ember.Route.extend({
         itemId: 3,
         description: "Responsive, progressively enhanced, Single Page App built without an MVC using Javascript + YUI3, HTML5, CSS3. Some accessibility enhancements have been added. The tutorial will work without Javascript enabled.",
         organization: "Menlo College", 
-        links: [{"Tutorial": "http://www.menlo.edu/library/research/tutorial/"}, {"Code": "https://github.com/sclatter/MenloCollegeTutorial2012"}],
-        images: []
+        links: [{"description": "Tutorial", "url": "http://www.menlo.edu/library/research/tutorial/"}, {"description": "Code", "url": "https://github.com/sclatter/MenloCollegeTutorial2012"}],
+        images: [{"url": "../images/tutorial.png", "description": "screen shot of tutorial"}]
       }, 
       {
         project: "DustJS Open Source Contribution",
         itemId: 4,
         description: "Contributing to DustJS open source library for client-side page rendering. Most used contribution is a Math helper. The Math helper has been further enhanced by several other developers following the initial contribution.",
         organization: "LinkedIn", 
-        links: [{"Code": "https://github.com/sclatter/dustjs"}],
+        links: [{"description": "Code", "url": "https://github.com/sclatter/dustjs"}],
         images: [{"url": "../images/dust.png", "description": "screen shot of Github page"}]
       }, 
       {
@@ -63,8 +63,8 @@ export default Ember.Route.extend({
         itemId: 6,
         description: "A distributed cache platform with client libraries for Node.js, C++ and PHP that allow ~1ms lookup of global navigation user experience in 30K+ permutations supporting 200+ Yahoo! brands and 35+ languages.",
         organization: "Yahoo!", 
-        links: [{"Demo": "header.html"}],
-        images: [{"url": "../images/discovery.png", "description": "screen shot of Discovery module"}]
+        links: [{"description": "Demo", "url": "header.html"}],
+        images: [{"url": "../images/header.png", "description": "screen shot of rendered Universal Header"}]
       }, 
       {
         project: "Breaking News Widget",
@@ -78,7 +78,7 @@ export default Ember.Route.extend({
         itemId: 8,
         description: "On September 11, 2011, we used our platform to deliver a front-end experience for a 1 minute digital moment of silence on all Yahoo! U.S. web sites from 8:46 a.m. ET to 8:47 a.m. ET.",
         organization: "Yahoo!", 
-        links: [{"Demo": "dmos.html"}],
+        links: [{"description": "Demo", "url": "dmos.html"}],
         images: [{"url": "../images/dmos.png", "description": "screen shot of moment of silence"}]
       }, 
       {
@@ -86,7 +86,7 @@ export default Ember.Route.extend({
         itemId: 9,
         description: "My team created a new horizontal widget for a cross-network, consistent content sharing experience. I later led an effort for a v2 experience that allowed quicker access to popular social networks and more skinning options. The widget included a server-side package with configuration options and was fully secure, accessible and localized.",
         organization: "Yahoo!", 
-        links: [{"Demo": "sharing.html"}],
+        links: [{"description": "Demo", "url": "sharing.html"}],
         images: [{"url": "../images/sharing.png", "description": "screen shot of widget v1"}]
       }, 
       {
@@ -94,7 +94,7 @@ export default Ember.Route.extend({
         itemId: 10,
         description: "In 2010, I built a lightweight Javascript libray for the Yahoo! Developer Network. The library exists for publishers and developers to promote the apps and content on yahoo.com and my.yahoo.com.",
         organization: "Yahoo!", 
-        links: [{"Demo": "addtoyahoo.html"}]
+        links: [{"description": "Demo", "url": "addtoyahoo.html"}]
       }
     ];
   }

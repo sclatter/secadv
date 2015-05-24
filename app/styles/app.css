@@ -408,7 +408,9 @@ table {
 
 /*app-specific styling*/
 
+
 body {
+  background-color: #0dadef;
   background-image: url('../images/dolomiti.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -444,6 +446,10 @@ h1 {
 h2 {
   margin: 0;
   padding: 0;
+}
+
+h3 {
+  margin: 0;
 }
 
 nav {
@@ -512,16 +518,32 @@ main {
 section[role="dialog"] {
   background-color: #fff;
   outline: 1px solid transparent;
-  height: 100%;
+  height: 700px;
   left: 0;
   margin-left: 20px;
   margin-right: 15px;
+  margin-top: 100px;
   opacity: .95;
+  overflow: scroll;
   position: fixed;
-  top: 100px;
+  bottom: 0;
   width: auto;
   z-index: 1;
 }
+
+section[role="dialog"]::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+section[role="dialog"]::-webkit-scrollbar-button {
+    background: #ccc;
+}
+section[role="dialog"]::-webkit-scrollbar-track-piece {
+    background: #ccc;
+}
+section[role="dialog"]::-webkit-scrollbar-thumb {
+    background: #434649;
+}​
 
 section[role="dialog"]:focus {
   outline: none;
@@ -563,6 +585,11 @@ img.inline-img {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+
+img.responsive-img {
+  width: auto;
+  max-width: 80%;
 }
 
 @media (max-width: 660px) {

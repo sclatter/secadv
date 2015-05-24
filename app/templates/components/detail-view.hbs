@@ -8,5 +8,25 @@
     <article>
     	{{model.description}}
    	</article>
+   	{{#if model.images}}
+   	  <article>
+   	    <h3>Images</h3>
+   	    <ul>
+   	    {{#each model.images}}
+   	      <li><img src="{{url}}" class="responsive-img" alt="{{description}}"/></li>
+   	    {{/each}}
+   	    </ul>
+   	  </article>
+   	{{/if}}
+   	{{#if model.links}}
+   	  <article>
+   	    <h3>Links</h3>
+   	    <ul>
+   	    {{#each model.links}}
+   	      <li><a href="{{url}}" target="_blank">{{description}}</a></li>
+   	    {{/each}}
+   	    </ul>
+   	  </article>
+   	{{/if}}
   </div>
 </section>

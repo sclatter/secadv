@@ -12,6 +12,8 @@ export default Router.map(function() {
   this.route('engineering', function() {
   	this.route('details', {path: ':itemId'});
   });
-  this.route('design');
+  this.route('design', function() {
+    this.route('details', {path: ':itemId'});
+  });
   this.route('adventures');
 });

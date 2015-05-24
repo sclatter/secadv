@@ -3,9 +3,9 @@
       {{#each model}}
       <li>
           <dl>
-            <dt><a {{bind-attr href=url}} target="_blank">{{name}}</a></dt>
-            <dd>{{publication}}</dd>
-            <dd>{{reporter}}</dd>
+            <dt>{{project}}</dt>
+            <dd>{{organization}}</dd>
+            <dd {{action "focusSection" param=itemId}}>{{#link-to 'design.details' itemId}}details{{/link-to}}</dd>
           </dl>
       </li>
     {{/each}}

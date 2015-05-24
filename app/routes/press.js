@@ -5,6 +5,13 @@ export default Ember.Route.extend({
 	model: function(params) {
     return [
       {
+        name: "Women in Business Q&A: Sarah Clatterbuck, Director, Web Development, LinkedIn Corporation", 
+        publication: "Huffington Post Business", 
+        reporter: "Laura Dunn",
+        url: "http://www.huffingtonpost.com/laura-dunn/women-in-business-qa-sara_b_7430278.html",
+        image: "http://s.huffpost.com/images/v/logos/bpage/business.gif"
+      },
+      {
         name: "Seminar encourages Montreal girls to create their own apps", 
         publication: "CTV News", 
         reporter: "Kevin Gallagher",

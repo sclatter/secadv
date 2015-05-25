@@ -42,6 +42,14 @@ export default Ember.Route.extend({
         organization: "Menlo College", 
         links: [{"description": "Bowman Library Web Site", "url": "http://www.menlo.edu/library/"}],
         images: [{"url": "../images/bowman.png", "description": "screen shot of the site"}]
+      },
+      {
+        project: "Velo Girls Club Jersey, 2007",
+        itemId: 4,
+        description: "In 2007, I entered the annual club jersey design contest for Velo Girls. I wanted my concept to capture two different things. First, I wanted the design to be high-visibility, but still pretty. Second, I wanted to capture both the recreational and racing aspects of the club. The concept was required to use the Pantone pink of the brand. My design was selected by popular vote of the membership.",
+        organization: "Velo Girls", 
+        links: [],
+        images: [{"url": "../images/club_jersey3.jpg", "description": "front and back of Velo Girls jersey"}]
       }
   	];
   }

@@ -467,6 +467,10 @@ h2 {
   padding: 0;
 }
 
+h2:focus {
+  outline: none;
+}
+
 h3 {
   margin: 0;
 }
@@ -493,13 +497,15 @@ nav a:visited {
   color: #fff;
 }
 
-nav a:focus{
+ 
+nav a.active {
   background-color: #434649;
-  outline: none;
 }
 
+nav a:focus,
 nav a:hover {
   background-color: #000;
+  outline: none;
 }
 
 
@@ -539,9 +545,8 @@ main {
 section[role="dialog"] {
   background-color: #fff;
   outline: 1px solid transparent;
-  height: auto;
+  height: 90%;
   margin-right: 20px;
-  min-height: 90%;
   opacity: .95;
   overflow: scroll;
   position: fixed;

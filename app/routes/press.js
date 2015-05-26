@@ -61,6 +61,13 @@ export default Ember.Route.extend({
         image: "http://www.ischool.berkeley.edu/sites/all/themes/ischool2008/ischool2008/images/logo_home.jpg"
       }, 
       {
+        name: "Teens' Tag It App",
+        publication: "KTVU Channel 2 News",
+        reporter: "Jana Katsuyama",
+        url: "https://youtu.be/vh6cKTXb2b4",
+        image: ""
+      },
+      {
         name: "When Litter and Graffiti Overtook Their Neighborhood, These Teens Invented an App", 
         publication: "Nation Swell", 
         reporter: "Ricardo Hernandez",

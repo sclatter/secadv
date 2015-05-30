@@ -413,6 +413,12 @@ body {
   background-color: #0dadef;
 }
 
+.hidden-text {
+  left: -9999em;
+  position: absolute;
+
+}
+
 img.cover-img {
   /* Set rules to fill background */
   min-height: 100%;
@@ -542,7 +548,7 @@ main {
   width: 50%;
 }
 
-section[role="dialog"] {
+section.detail-view {
   background-color: #fff;
   outline: 1px solid transparent;
   height: 90%;
@@ -556,30 +562,30 @@ section[role="dialog"] {
   z-index: 1;
 }
 
-section[role="dialog"]::-webkit-scrollbar {
+section.detail-view::-webkit-scrollbar {
     width: 5px;
     height: 5px;
 }
-section[role="dialog"]::-webkit-scrollbar-button {
+section.detail-view::-webkit-scrollbar-button {
     background: #ccc;
 }
-section[role="dialog"]::-webkit-scrollbar-track-piece {
+section.detail-view::-webkit-scrollbar-track-piece {
     background: #ccc;
 }
-section[role="dialog"]::-webkit-scrollbar-thumb {
+section.detail-view::-webkit-scrollbar-thumb {
     background: #434649;
 }​
 
-section[role="dialog"]:focus {
+section.detail-view:focus {
   outline: none;
   outline: 1px dotted #ccc;
 }
 
-section[role="dialog"] article {
+section.detail-view article {
   padding: 10px;
 }
 
-section[role="dialog"] header {
+section.detail-view header {
   background-color: #ccc;
   color: #434649;
   font-size: 18px;
@@ -587,7 +593,8 @@ section[role="dialog"] header {
   position: relative;
 }
 
-section[role="dialog"] header button {
+section.detail-view header button, 
+button.dialog-button {
   appearance: none;
   background: none;
   border: none;
@@ -600,9 +607,9 @@ section[role="dialog"] header button {
   right: 10px;
 }
 
-section[role="dialog"] header button:focus,
-section[role="dialog"] header button:active,
-section[role="dialog"] header button:hover {
+button:focus, 
+button:active, 
+button:hover {
   text-decoration: underline;
 }
 
@@ -644,7 +651,7 @@ img.responsive-img {
     margin-top: 20px;
     width: auto;
   }
-  section[role="dialog"] {
+  section.detail-view {
     width: auto;
   }
 }

@@ -1,9 +1,11 @@
-<section role="dialog" id="detail-view" aria-labeledby="dialog-header">
-  <div role="document">
-  	<header id="dialog-header">
-  		Project Details
-  		<button {{action "buttonClicked" param=itemId}}>close</button>
-  	</header>
+<section class="detail-view" id="detail-view" aria-labeledby="dialog-header">
+<header id="dialog-header">
+  Project Details 
+  <button role="button" {{action "buttonClicked" param=itemId}}>close
+    <span class="hidden-text">detail dialog</span>
+  </button>
+</header>
+  <div>
     {{yield}}
     <article>
     	{{model.description}}
@@ -28,5 +30,6 @@
    	    </ul>
    	  </article>
    	{{/if}}
+    <button class="dialog-button" role="button" {{action "buttonClicked" param=itemId}}>go back to project list</button>
   </div>
 </section>

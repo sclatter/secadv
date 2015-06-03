@@ -5,7 +5,7 @@
           <dl>
             <dt>{{project}}</dt>
             <dd>{{organization}}</dd>
-            <dd {{action "focusSection" param=itemId}}>{{#link-to 'design.details' itemId}}details{{/link-to}}</dd>
+            <dd {{action "focusSection" param=itemId}}>{{#link-to 'design.details' itemId}}details <span class="hidden-text">Read more details about {{project}}.</span>{{/link-to}}</dd>
           </dl>
       </li>
     {{/each}}

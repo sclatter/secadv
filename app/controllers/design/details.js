@@ -8,7 +8,7 @@ export default Ember.Controller.extend({
         if(trigger) {
           trigger.focus();	
         } else {
-          header.attr('tabindex', -1).focus();
+          header.attr({'tabindex': '-1', 'contenteditable': 'false'}).focus();
         }
       this.transitionToRoute('design');
     }

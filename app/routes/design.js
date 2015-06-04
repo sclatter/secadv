@@ -5,7 +5,7 @@ export default Ember.Route.extend({
     focusSection: function() {
       var section = $('#detail-view'); 
       if (section) {
-        section.attr('tabindex', -1).focus();
+        section.attr({'tabindex': '-1', 'contenteditable': 'false'}).focus();
       }
     }
   },

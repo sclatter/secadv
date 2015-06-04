@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   actions: {
     focusSection: function() {
-      var section = $('#detail-view'); 
+      var section = $('#dialog-header'); 
       if (section) {
         section.attr({'tabindex': '-1', 'contenteditable': 'false'}).focus();
       }

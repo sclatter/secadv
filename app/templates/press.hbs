@@ -1,11 +1,11 @@
 {{self-focusing-heading title="Press"}}
     <ul>
-      {{#each model}}
+      {{#each model as |pr|}}
       <li>
           <dl>
-            <dt><a {{bind-attr href=url}} target="_blank">{{name}}</a></dt>
-            <dd>{{publication}}</dd>
-            <dd>{{reporter}}</dd>
+            <dt><a {{bind-attr href=pr.url}} target="_blank">{{pr.name}}</a></dt>
+            <dd>{{pr.publication}}</dd>
+            <dd>{{pr.reporter}}</dd>
           </dl>
       </li>
     {{/each}}

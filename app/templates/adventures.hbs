@@ -1,10 +1,10 @@
 {{self-focusing-heading title="Adventures"}}
     <ul>
-    {{#each model}}
+    {{#each model as |adventure|}}
       <li>
           <dl>
-            <dt><a {{bind-attr href=url}} target="_blank">{{trip}}</a></dt>
-            <dd>{{description}}</dd>
+            <dt><a href={{adventure.url}} target="_blank">{{adventure.trip}}</a></dt>
+            <dd>{{adventure.description}}</dd>
           </dl>
       </li>
     {{/each}}

@@ -14,8 +14,8 @@
    	  <article>
    	    <h3>Images</h3>
    	    <ul>
-   	    {{#each model.images}}
-   	      <li><img src="{{url}}" class="responsive-img" alt="{{description}}"/></li>
+   	    {{#each model.images as |image|}}
+   	      <li><img src="{{image.url}}" class="responsive-img" alt="{{image.description}}"/></li>
    	    {{/each}}
    	    </ul>
    	  </article>
@@ -24,8 +24,8 @@
    	  <article>
    	    <h3>Links</h3>
    	    <ul>
-   	    {{#each model.links}}
-   	      <li><a href="{{url}}" target="_blank">{{description}}</a></li>
+   	    {{#each model.links as |link|}}
+   	      <li><a href="{{link.url}}" target="_blank">{{link.description}}</a></li>
    	    {{/each}}
    	    </ul>
    	  </article>

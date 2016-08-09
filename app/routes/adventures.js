@@ -4,6 +4,11 @@ export default Ember.Route.extend({
 	model: function(params) {
     return [
       {
+        trip: "Berlin - May 2016",
+        url: "http://girodichatterbox.blogspot.com/2016/08/berlin-may-2016.html",
+        description: "Business and Pleasure for six days on the Continent."
+      },
+      {
         trip: "Todos Santos, Mexico - March 2016",
         url: "https://www.flickr.com/photos/27108151@N03/albums/72157665667798450",
         description: "A long weekend in a fun, artsy surfing town"

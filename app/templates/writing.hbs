@@ -1,10 +1,10 @@
 {{self-focusing-heading title="Writing"}}
     <ul>
-      {{#each model}}
+      {{#each model as |article|}}
       <li>
           <dl>
-            <dt><a {{bind-attr href=url}} target="_blank">{{title}}</a></dt>
-            <dd>{{description}}</dd>
+            <dt><a {{bind-attr href=url}} target="_blank">{{article.title}}</a></dt>
+            <dd>{{article.description}}</dd>
           </dl>
       </li>
     {{/each}}

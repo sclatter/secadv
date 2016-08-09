@@ -1,11 +1,11 @@
 {{self-focusing-heading title="Design Work"}}
     <ul>
-      {{#each model}}
+      {{#each model as |design|}}
       <li>
           <dl>
-            <dt>{{project}}</dt>
-            <dd>{{organization}}</dd>
-            <dd {{action "focusSection" param=itemId}}>{{#link-to 'design.details' itemId}}details <span class="hidden-text">Read more details about {{project}}.</span>{{/link-to}}</dd>
+            <dt>{{design.project}}</dt>
+            <dd>{{design.organization}}</dd>
+            <dd {{action "focusSection" param=itemId}}>{{#link-to 'design.details' design.itemId}}details <span class="hidden-text">Read more details about {{project}}.</span>{{/link-to}}</dd>
           </dl>
       </li>
     {{/each}}

@@ -5,6 +5,24 @@ export default Ember.Route.extend({
 	model: function(params) {
     return [
       {
+        name: "Scaling Engineering",
+        venue: "Laurel & Wolf Tech Summit",
+        description: "Presented my experience scaling team, systems any myself during an exponential growth phase at LinkedIn.",
+        url: "http://techsummit.laurelandwolf.com/"
+      },
+      {
+        name: "LinkedIn APIs for the Travel Industry",
+        venue: "IATA NDC Hackathon",
+        description: "I presenting the LinkedIn APIs at this hackathon targeted to improving the business travel experience and also mentored teams of hackers during the event.",
+        url: "http://ndchack.bemyapp.com/"
+      },
+      {
+        name: "Giving Away Privilege is My Success",
+        venue: "Lincoln High School Hall of Fame Induction",
+        description: "In 2016, I was inducted into my high school's hall of fame for excellence in the field of Software Engineering.",
+        url: "http://www.recordnet.com/article/20160426/NEWS/160429737"
+      },
+      {
         name: "Building and Testing Accessible Mobile Applications - Panel",
         venue: "Grace Hopper Celebration of Women in Computing 2015",
         description: "Through the Partner Collaboration Forum, I assembled this panel and wrote the paper for the technical topic.",

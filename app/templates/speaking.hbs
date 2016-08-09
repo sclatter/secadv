@@ -1,11 +1,11 @@
 {{self-focusing-heading title="Speaking"}}
     <ul>
-      {{#each model}}
+      {{#each model as |event|}}
       <li>
           <dl>
-            <dt><a {{bind-attr href=url}} target="_blank">{{name}}</a></dt>
-            <dd>{{venue}}</dd>
-            <dd>{{description}}</dd>
+            <dt><a {{bind-attr href=event.url}} target="_blank">{{event.name}}</a></dt>
+            <dd>{{event.venue}}</dd>
+            <dd>{{event.description}}</dd>
           </dl>
       </li>
     {{/each}}

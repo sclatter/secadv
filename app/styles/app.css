@@ -423,11 +423,11 @@ img.cover-img {
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 1024px;
-  
+
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
-  
+
   /* Set up positioning */
   position: fixed;
   top: 0;
@@ -503,7 +503,7 @@ nav a:visited {
   color: #fff;
 }
 
- 
+
 nav a.active {
   background-color: #434649;
 }
@@ -562,6 +562,20 @@ section.detail-view {
   z-index: 1;
 }
 
+section.detail-view.page {
+  background-color: #fff;
+  outline: none;
+  height: 100%;
+  margin-right: 0;
+  opacity: 1;
+  overflow: scroll;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
 section.detail-view::-webkit-scrollbar {
     width: 5px;
     height: 5px;
@@ -593,7 +607,7 @@ section.detail-view header {
   position: relative;
 }
 
-section.detail-view header button, 
+section.detail-view header button,
 button.dialog-button {
   appearance: none;
   background: none;
@@ -607,8 +621,8 @@ button.dialog-button {
   right: 10px;
 }
 
-button:focus, 
-button:active, 
+button:focus,
+button:active,
 button:hover {
   text-decoration: underline;
 }

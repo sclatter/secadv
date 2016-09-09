@@ -10,7 +10,7 @@ export default Router.map(function() {
   this.route('writing');
   this.route('press');
   this.route('engineering', function() {
-  	this.route('details', {path: ':itemId'});
+  	this.route('details', {path: 'item/:itemId'});
   });
   this.route('design', function() {
     this.route('details', {path: ':itemId'});

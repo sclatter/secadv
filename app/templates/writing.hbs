@@ -3,7 +3,7 @@
       {{#each model as |article|}}
       <li>
           <dl>
-            <dt><a {{bind-attr href=url}} target="_blank">{{article.title}}</a></dt>
+            <dt><a {{bind-attr href=article.url}} target="_blank">{{article.title}}</a></dt>
             <dd>{{article.description}}</dd>
           </dl>
       </li>

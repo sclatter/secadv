@@ -5,6 +5,42 @@ export default Ember.Route.extend({
 	model: function(params) {
     return [
       {
+        name: "Software Engineering in the Wild",
+        venue: "IAMCP Silicon Valley, Microsoft Silicon Valley",
+        description: "Lessons learned on safari in Africa that have parallels to lessons learned in leading software teams.",
+        url: "https://www.eventbrite.com/e/iamcp-meeting-feat-sarah-clatterbuck-linkedin-dir-of-engineering-tickets-31652071197#"
+      },
+      {
+        name: "Fireside Chat - Heidi Williams and Sarah Clatterbuck",
+        venue: "Box Headquarters",
+        description: "Learnings from Engineering Leadership",
+        url: "https://blog.box.com/blog/4-career-tips-from-boxs-leading-women/"
+      },
+      {
+        name: "Software Engineering in the Wild",
+        venue: "University of San Franciso, Computer Science Night Keynote",
+        description: "Lessons learned on safari in Africa that have parallels to lessons learned in leading software teams.",
+        url: "http://csnight.cs.usfca.edu/"
+      },
+      {
+        name: "Creating More Silicon Valleys",
+        venue: "Digital Thursday, Douala, Cameroon",
+        description: "Spoke briefly on creating additional centers of innovation around the world.",
+        url: "http://www.digitalthursday.com/"
+      },
+      {
+        name: "Pathways to Leadership",
+        venue: "Tech Inclusion SF",
+        description: "Panel discussion on how to create pathways to leadership roles for people from diverse backgrounds.",
+        url: "http://sf16.techinclusion.co/speakers/sarah-clatterbuck/"
+      },
+      {
+        name: "Accessibility from the Inside Out",
+        venue: "Ability in Tech Summit",
+        description: "How we approched ",
+        url: "http://ability.techinclusion.co/#schedule"
+      },
+      {
         name: "Scaling Engineering",
         venue: "Laurel & Wolf Tech Summit",
         description: "Presented my experience scaling team, systems any myself during an exponential growth phase at LinkedIn.",

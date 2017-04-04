@@ -5,6 +5,48 @@ export default Ember.Route.extend({
 	model: function(params) {
     return [
       {
+        name: "The Most Powerful Female Engineers of 2017",
+        publication: "Business Insider",
+        reporter: "Julie Bort",
+        url: "http://www.businessinsider.com/most-powerful-female-engineers-of-2017-2017-2",
+        image: "http://static2.businessinsider.com/image/58acc73801fe58fe4f8b5719-480/women-engineers-2017.jpg"
+      },
+      {
+        name: "LinkedIn: Encouraging High School Students to Study STEM",
+        publication: "Anita Borg Institute",
+        reporter: "ABI.org",
+        url: "https://anitaborg.org/profiles/linkedin-high-school-students-stem/",
+        image: "https://anitaborg.org/wp-content/uploads/2017/01/LinkedIn-High-School-Trainee-Pic-700x467.png"
+      },
+      {
+        name: "Why Gender Diversity in Tech is a Long-term Committment",
+        publication: "Mashable",
+        reporter: "Emma Hinchcliff",
+        url: "http://mashable.com/2016/10/18/linkedin-women-in-tech-biz-please/#OOOgyiVV1aqn",
+        image: "http://i.amz.mshcdn.com/2VLQ4a3TAx1r1KdYB0P1x8HVeHg=/950x534/filters:quality(90)/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F250706%2FStockSnap_6UHHE19YG7.jpg"
+      },
+      {
+        name: "Erica Lockheimer & Sarah Clatterbuck, LinkedIn - Grace Hopper",
+        publication: "The CUBE",
+        reporter: "Jeff Frick",
+        url: "https://www.youtube.com/watch?v=fPBWh3Xbn8k",
+        image: "https://yt3.ggpht.com/-rP9xWlMPT_M/AAAAAAAAAAI/AAAAAAAAAAA/GvMFvEeY_Qs/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+      },
+      {
+        name: "Behind the Tech",
+        publication: "Behind the Tech Org",
+        reporter: "Thea De Armand",
+        url: "http://www.behindthetech.org/#/sarah-clatterbuck/",
+        image: "https://static1.squarespace.com/static/579af688ff7c508558034d3d/t/587be491e3df288ed108f382/1484514459292/?format=1000w"
+      },
+      {
+        name: "Building Inclusive Products",
+        publication: "Tech Inclusion Podcast",
+        reporter: "Change Catalyst",
+        url: "https://www.acast.com/techinclusion/9-sarah-clatterbuck-dir.-of-engineering-at-linkedin-is-building-inclusive-products",
+        image: "https://imagecdn.acast.com/techinclusion/9-sarah-clatterbuck-dir.-of-engineering-at-linkedin-is-building-inclusive-products/image.jpg?w=500&h=500"
+      },
+      {
         name: "The women creating the ‘on ramp’ for new coders | #WomeninTech",
         publication: "SiliconAngle",
         reporter: "Marlene Den Bleyker",

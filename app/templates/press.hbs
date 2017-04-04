@@ -3,7 +3,7 @@
       {{#each model as |pr|}}
       <li>
           <dl>
-            <dt><a {{bind-attr href=pr.url}} target="_blank">{{pr.name}}</a></dt>
+            <dt><a href={{pr.url}} target="_blank">{{pr.name}}</a></dt>
             <dd>{{pr.publication}}</dd>
             <dd>{{pr.reporter}}</dd>
           </dl>

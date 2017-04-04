@@ -3,7 +3,7 @@
       {{#each model as |event|}}
       <li>
           <dl>
-            <dt><a {{bind-attr href=event.url}} target="_blank">{{event.name}}</a></dt>
+            <dt><a href={{event.url}} target="_blank">{{event.name}}</a></dt>
             <dd>{{event.venue}}</dd>
             <dd>{{event.description}}</dd>
           </dl>

@@ -13,6 +13,6 @@ export default Ember.Controller.extend({
       this.transitionToRoute('engineering');
     }
   },
-  queryParams: ['mode'],
-  mode: 'page'
+  //queryParams: ['mode'],
+  //mode: 'page'
 });

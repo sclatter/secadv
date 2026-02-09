@@ -5,6 +5,18 @@ export default Ember.Route.extend({
 	model: function(params) {
     return [
       {
+        name: "Digital Almaty Forum",
+        venue: "Startup Day - Almaty",
+        description: "Event to support the startup ecosystem in Almaty, Khazakhstan",
+        url: "https://astanatimes.com/2024/02/kazakh-pm-proposes-to-create-eurasian-digital-platform/"
+      },
+      {
+        name: "Female Leadership – A Potential Revolution in Business, Technology, and Everything Else",
+        venue: "Perspektywy Women in Tech Summit - Warsaw",
+        description: "As stories of unjust limitations and abuses surface in every field of business and society, they bring with them the opportunity for radical and lasting change.",
+        url: "https://eventory.cc/event/women-in-tech-summit-2018/speaker/36400#"
+      },
+      {
         name: "Software Engineering in the Wild",
         venue: "IAMCP Silicon Valley, Microsoft Silicon Valley",
         description: "Lessons learned on safari in Africa that have parallels to lessons learned in leading software teams.",

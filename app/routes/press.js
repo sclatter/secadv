@@ -5,6 +5,13 @@ export default Ember.Route.extend({
 	model: function(params) {
     return [
       {
+        name: "Fobes Top 50 Women in Tech 2018 (US, World)",
+        publication: "Forbes", 
+        reporter: "Editorial Staff", 
+        url: "https://www.forbes.com/profile/sarah-clatterbuck/", 
+        image: ""
+      },
+      {
         name: "The Most Powerful Female Engineers of 2017",
         publication: "Business Insider",
         reporter: "Julie Bort",

@@ -5,6 +5,20 @@ export default Ember.Route.extend({
 	model: function(params) {
     return [
       {
+        name: "Im Sihlicon Valley Europas",
+        publication: "SRG Deutschschweiz (Swiss National) Link", 
+        reporter: "Esther Banz", 
+        url: "https://www.srgd.ch/de/aktuelles/news/im-sihlicon-valley-europas/", 
+        image: ""
+      },
+      {
+        name: "Mit 100 echten Fans kann man auf YouTube Geld verdienen",
+        publication: "M&K", 
+        reporter: "Beat Hürlimann", 
+        url: "https://www.markt-kom.com/de/digital/mit-100-echten-fans-kann-man-auf-youtube-geld-verdienen/", 
+        image: ""
+      },
+      {
         name: "Fobes Top 50 Women in Tech 2018 (US, World)",
         publication: "Forbes", 
         reporter: "Editorial Staff", 
